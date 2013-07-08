@@ -1,7 +1,9 @@
 # sinatra_street_view.rb
 require 'sinatra'
 
-get '/' do
-  "Hello, RubyLearning!"
+class SinatraStreetView < Sinatra::Base
+  get '/' do
+    "Hello, RubyLearning!"
+  end
 end
 
