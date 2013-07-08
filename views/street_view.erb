@@ -1,0 +1,15 @@
+<%= @error %>
+<hr>
+<form action='/street_view' method='post'>
+  <input type="text" name="address" placeholder="Address">
+  <input type="text" name="size" placeholder="Image Size">
+  <input type="submit" value="Submit">
+</form>
+
+<% if @image_src %>
+  <a href="<%= @image_src %>">Image URL</a><hr>
+  <img src="<%= @image_src %>"></img>
+<% else %>
+  Please enter an address
+<% end %>
+
