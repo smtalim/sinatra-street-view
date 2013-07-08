@@ -18,7 +18,7 @@ APIs to be used
 How you can help?
 -----------------
 
-1. If you want to contribute code, email me at satish [at] rubylearning.org your GitHub username and I shall add you as a collaborator, or
+1. If you want to contribute code, clone the repo, add code and send me a pull request, or
 2. If you are interested in watching this project develop, just click on "Watching" above
 
 
