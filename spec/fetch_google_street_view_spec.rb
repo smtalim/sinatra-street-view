@@ -13,5 +13,18 @@ describe FetchGoogleStreetView do
     FetchGoogleStreetView.new(address: address, size: size).fetch_image_source.
       should == URI.escape(final_output)
   end
+
+  it "should raise error when address is not available" do
+    expect { 
+      FetchGoogleStreetView.new({}).fetch_image_source
+    }.to raise_exception AddressUnavailableError
+  end
+
+  it "should raise error when invalid size is entered" do
+    expect { 
+      FetchGoogleStreetView.new({address: "Foo", size: "Bar"}).fetch_image_source
+    }.to raise_exception InvalidSizeError
+
+  end
 end
 
