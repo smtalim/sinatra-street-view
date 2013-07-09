@@ -18,7 +18,7 @@ APIs to be used
 How you can help?
 -----------------
 
-1. If you want to contribute code, fork the repo, add code and send me a pull request, or
+1. Go thro' the issues. Solve the various iterations and post your relevant code. We will discuss your code and if approved, integrate it into the project, or
 2. If you are interested in watching this project develop, just click on "Watching" above
 
 
